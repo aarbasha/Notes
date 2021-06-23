@@ -1,0 +1,36 @@
+body {
+   background-image: url(../img/home.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.form-login {
+    background: rgba(0, 0, 0, 0.476);
+    height: auto;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: wheat;
+    background: none;
+    outline: none;
+    cursor: text;
+    border: none;
+    border-bottom: 1px solid rgb(255, 0, 0);
+
+}
+
+input[type="email",
+type="password",
+type="text"]:focus {
+    background: none;
+    outline: none;
+    cursor: text;
+    border: none;
+}
